@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name Capacitors_THT)(type KiCad)(uri "$(KISYSMOD)/Capacitors_THT.pretty")(options "")(descr ""))
+  (lib (name Connectors)(type KiCad)(uri "$(KISYSMOD)/Connectors.pretty")(options "")(descr ""))
+  (lib (name Connectors_Terminal_Blocks)(type KiCad)(uri "$(KISYSMOD)/Connectors_Terminal_Blocks.pretty")(options "")(descr ""))
+  (lib (name Diodes_THT)(type KiCad)(uri "$(KISYSMOD)/Diodes_THT.pretty")(options "")(descr ""))
+  (lib (name Measurement_Points)(type KiCad)(uri "$(KISYSMOD)/Measurement_Points.pretty")(options "")(descr ""))
+  (lib (name Measurement_Scales)(type KiCad)(uri "$(KISYSMOD)/Measurement_Scales.pretty")(options "")(descr ""))
+  (lib (name Mounting_Holes)(type KiCad)(uri "$(KISYSMOD)/Mounting_Holes.pretty")(options "")(descr ""))
+  (lib (name Oddities)(type KiCad)(uri "$(KISYSMOD)/Oddities.pretty")(options "")(descr ""))
+  (lib (name Symbols)(type KiCad)(uri "$(KISYSMOD)/Symbols.pretty")(options "")(descr ""))
+  (lib (name Wire_Connections_Bridges)(type KiCad)(uri "$(KISYSMOD)/Wire_Connections_Bridges.pretty")(options "")(descr ""))
+  (lib (name Wire_Pads)(type KiCad)(uri "$(KISYSMOD)/Wire_Pads.pretty")(options "")(descr ""))
+)

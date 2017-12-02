@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DM-5 accessory-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -53,7 +54,7 @@ U 1 1 5A16C0F1
 P 6200 3500
 F 0 "R1" V 6280 3500 50  0000 C CNN
 F 1 "20K" V 6200 3500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6130 3500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6130 3500 50  0001 C CNN
 F 3 "" H 6200 3500 50  0001 C CNN
 	1    6200 3500
 	1    0    0    -1  
@@ -64,7 +65,7 @@ U 1 1 5A16C13E
 P 6200 4100
 F 0 "R2" V 6280 4100 50  0000 C CNN
 F 1 "20K" V 6200 4100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6130 4100 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6130 4100 50  0001 C CNN
 F 3 "" H 6200 4100 50  0001 C CNN
 	1    6200 4100
 	1    0    0    -1  
@@ -75,7 +76,7 @@ U 1 1 5A16C1C7
 P 6900 3500
 F 0 "R4" V 6980 3500 50  0000 C CNN
 F 1 "20K" V 6900 3500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6830 3500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6830 3500 50  0001 C CNN
 F 3 "" H 6900 3500 50  0001 C CNN
 	1    6900 3500
 	1    0    0    -1  
@@ -86,7 +87,7 @@ U 1 1 5A16C268
 P 7600 3500
 F 0 "R6" V 7680 3500 50  0000 C CNN
 F 1 "20K" V 7600 3500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7530 3500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7530 3500 50  0001 C CNN
 F 3 "" H 7600 3500 50  0001 C CNN
 	1    7600 3500
 	1    0    0    -1  
@@ -97,7 +98,7 @@ U 1 1 5A16C32B
 P 6550 3800
 F 0 "R3" V 6630 3800 50  0000 C CNN
 F 1 "10K" V 6550 3800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6480 3800 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6480 3800 50  0001 C CNN
 F 3 "" H 6550 3800 50  0001 C CNN
 	1    6550 3800
 	0    1    1    0   
@@ -108,7 +109,7 @@ U 1 1 5A16C668
 P 7250 3800
 F 0 "R5" V 7330 3800 50  0000 C CNN
 F 1 "10K" V 7250 3800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7180 3800 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7180 3800 50  0001 C CNN
 F 3 "" H 7250 3800 50  0001 C CNN
 	1    7250 3800
 	0    1    1    0   
@@ -118,8 +119,8 @@ L C C1
 U 1 1 5A16D047
 P 3850 4350
 F 0 "C1" H 3875 4450 50  0000 L CNN
-F 1 "1.0 uF" H 3875 4250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 3888 4200 50  0001 C CNN
+F 1 "10.0 uF 63V" H 3875 4250 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 3888 4200 50  0001 C CNN
 F 3 "" H 3850 4350 50  0001 C CNN
 	1    3850 4350
 	1    0    0    -1  
@@ -129,8 +130,8 @@ L C C2
 U 1 1 5A16D094
 P 5050 4350
 F 0 "C2" H 5075 4450 50  0000 L CNN
-F 1 ".1 uF" H 5075 4250 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 5088 4200 50  0001 C CNN
+F 1 "1.0 uF 63V" H 5075 4250 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 5088 4200 50  0001 C CNN
 F 3 "" H 5050 4350 50  0001 C CNN
 	1    5050 4350
 	1    0    0    -1  
@@ -164,12 +165,12 @@ Wire Wire Line
 Wire Wire Line
 	7600 2650 7600 3350
 $Comp
-L Screw_Terminal_01x02 J1
+L Screw_Terminal_01x02-RESCUE-DM-5_accessory J1
 U 1 1 5A171210
 P 2600 3000
 F 0 "J1" H 2600 3100 50  0001 C CNN
 F 1 "24VAC" V 2700 2950 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight" H 2600 3000 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 2600 3000 50  0001 C CNN
 F 3 "" H 2600 3000 50  0001 C CNN
 	1    2600 3000
 	0    -1   -1   0   
@@ -181,12 +182,12 @@ Wire Wire Line
 	6200 4600 6200 4250
 Connection ~ 5050 4600
 $Comp
-L Screw_Terminal_01x02 J3
+L Screw_Terminal_01x02-RESCUE-DM-5_accessory J3
 U 1 1 5A171560
 P 8750 3800
 F 0 "J3" H 8750 3900 50  0001 C CNN
 F 1 "Output" V 8850 3750 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight" H 8750 3800 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 8750 3800 50  0001 C CNN
 F 3 "" H 8750 3800 50  0001 C CNN
 	1    8750 3800
 	1    0    0    -1  
@@ -203,7 +204,7 @@ U 1 1 5A171D34
 P 6200 2350
 F 0 "J2" H 6200 2550 50  0001 C CNN
 F 1 "Input" V 6300 2300 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_04x3.5mm_Straight" H 6200 2350 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_4pol" H 6200 2350 50  0001 C CNN
 F 3 "" H 6200 2350 50  0001 C CNN
 	1    6200 2350
 	0    -1   -1   0   
@@ -235,8 +236,8 @@ L Fuse F1
 U 1 1 5A175D9C
 P 2200 3850
 F 0 "F1" V 2280 3850 50  0000 C CNN
-F 1 "1A 250V" V 2125 3850 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder_ATO_Blade_littlefuse_Pudenz_2_Pin" V 2130 3850 50  0001 C CNN
+F 1 "1A ATC" V 2125 3850 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:BladeFuse-CarType" V 2130 3850 50  0001 C CNN
 F 3 "" H 2200 3850 50  0001 C CNN
 	1    2200 3850
 	1    0    0    -1  
@@ -247,7 +248,7 @@ U 1 1 5A175E3B
 P 5600 3200
 F 0 "F2" V 5500 3200 50  0000 C CNN
 F 1 "Polyfuse 0.08A" V 5700 3200 50  0000 C CNN
-F 2 "Varistors:RV_Disc_D7_W3.4_P5" H 5650 3000 50  0001 L CNN
+F 2 "Varistors:RV_Disc_D7_W4.8_P5" H 5650 3000 50  0001 L CNN
 F 3 "" H 5600 3200 50  0001 C CNN
 	1    5600 3200
 	1    0    0    -1  
@@ -268,7 +269,7 @@ U 1 1 5A181AC8
 P 2500 4350
 F 0 "D2" H 2500 4450 50  0000 C CNN
 F 1 "D" H 2500 4250 50  0000 C CNN
-F 2 "Diodes_THT:D_A-405_P7.62mm_Horizontal" H 2500 4350 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 2500 4350 50  0001 C CNN
 F 3 "" H 2500 4350 50  0001 C CNN
 	1    2500 4350
 	1    0    0    -1  
@@ -279,7 +280,7 @@ U 1 1 5A181B41
 P 2800 4350
 F 0 "D4" H 2800 4450 50  0000 C CNN
 F 1 "D" H 2800 4250 50  0000 C CNN
-F 2 "Diodes_THT:D_A-405_P7.62mm_Horizontal" H 2800 4350 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 2800 4350 50  0001 C CNN
 F 3 "" H 2800 4350 50  0001 C CNN
 	1    2800 4350
 	-1   0    0    1   
@@ -290,7 +291,7 @@ U 1 1 5A181B84
 P 2500 4050
 F 0 "D1" H 2500 4150 50  0000 C CNN
 F 1 "D" H 2500 3950 50  0000 C CNN
-F 2 "Diodes_THT:D_A-405_P7.62mm_Horizontal" H 2500 4050 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 2500 4050 50  0001 C CNN
 F 3 "" H 2500 4050 50  0001 C CNN
 	1    2500 4050
 	-1   0    0    1   
@@ -301,7 +302,7 @@ U 1 1 5A181BE1
 P 2800 4050
 F 0 "D3" H 2800 4150 50  0000 C CNN
 F 1 "D" H 2800 3950 50  0000 C CNN
-F 2 "Diodes_THT:D_A-405_P7.62mm_Horizontal" H 2800 4050 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal" H 2800 4050 50  0001 C CNN
 F 3 "" H 2800 4050 50  0001 C CNN
 	1    2800 4050
 	1    0    0    -1  
@@ -326,7 +327,7 @@ U 1 1 5A1B5D65
 P 4450 3900
 F 0 "U1" H 4200 4125 50  0000 C CNN
 F 1 "LR645N3" H 4375 4125 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 4450 4325 50  0001 C CIN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 4450 4325 50  0001 C CIN
 F 3 "" H 4450 3900 50  0001 C CNN
 	1    4450 3900
 	1    0    0    -1  
